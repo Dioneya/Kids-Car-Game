@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Cactus
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: DefaultTexturePlatform
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: -1
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 0
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 24e2e0ba69bfc294aa37f894a4b1b3d9, type: 3}
+    - {fileID: 2800000, guid: 4a3cab4b4c683314e8ccdbd52308f8c7, type: 3}
+    - {fileID: 2800000, guid: 3073e21ef15ee9e43a0a1d440527bbd1, type: 3}
+    - {fileID: 2800000, guid: 4b0b42a518d32d5428ff21e426b4d6e7, type: 3}
+    - {fileID: 2800000, guid: d709937979b1edf44aea6c13d9d27374, type: 3}
+    - {fileID: 2800000, guid: 139e1fe5dc65ba24abdf8c89c83b21cd, type: 3}
+    - {fileID: 2800000, guid: b1e06e87fec3b1140b6349334546b33e, type: 3}
+    - {fileID: 2800000, guid: ab206b7baaafb0e43b5728c3661f588c, type: 3}
+    - {fileID: 2800000, guid: fade6c5a878bf06418dc1f57600a5099, type: 3}
+    - {fileID: 2800000, guid: 457986db6d64c184781bf47299c52c04, type: 3}
+    - {fileID: 2800000, guid: 23ec855b34992344c921e98adeb13629, type: 3}
+    - {fileID: 2800000, guid: 077d1f1e64f664647804c12fe34fd1e9, type: 3}
+    - {fileID: 2800000, guid: 57762aa57e817494e8c88989b9ddf670, type: 3}
+    - {fileID: 2800000, guid: 4716d3a82eee6f649bbaf034a550cb97, type: 3}
+    - {fileID: 2800000, guid: 96a8ed87155bfc44d9b54557a96602bb, type: 3}
+    - {fileID: 2800000, guid: cbf0da0db45f8a745acfe588bb33f283, type: 3}
+    totalSpriteSurfaceArea: 1323694
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 4b0b42a518d32d5428ff21e426b4d6e7, type: 3}
+  - {fileID: 21300000, guid: 57762aa57e817494e8c88989b9ddf670, type: 3}
+  - {fileID: 21300000, guid: 139e1fe5dc65ba24abdf8c89c83b21cd, type: 3}
+  - {fileID: 21300000, guid: 96a8ed87155bfc44d9b54557a96602bb, type: 3}
+  - {fileID: 21300000, guid: b1e06e87fec3b1140b6349334546b33e, type: 3}
+  - {fileID: 21300000, guid: 4716d3a82eee6f649bbaf034a550cb97, type: 3}
+  - {fileID: 21300000, guid: d709937979b1edf44aea6c13d9d27374, type: 3}
+  - {fileID: 21300000, guid: fade6c5a878bf06418dc1f57600a5099, type: 3}
+  - {fileID: 21300000, guid: 24e2e0ba69bfc294aa37f894a4b1b3d9, type: 3}
+  - {fileID: 21300000, guid: 4a3cab4b4c683314e8ccdbd52308f8c7, type: 3}
+  - {fileID: 21300000, guid: 23ec855b34992344c921e98adeb13629, type: 3}
+  - {fileID: 21300000, guid: ab206b7baaafb0e43b5728c3661f588c, type: 3}
+  - {fileID: 21300000, guid: 457986db6d64c184781bf47299c52c04, type: 3}
+  - {fileID: 21300000, guid: cbf0da0db45f8a745acfe588bb33f283, type: 3}
+  - {fileID: 21300000, guid: 3073e21ef15ee9e43a0a1d440527bbd1, type: 3}
+  - {fileID: 21300000, guid: 077d1f1e64f664647804c12fe34fd1e9, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - "\u041A\u0430\u043A\u0442\u0443\u04414"
+  - "\u0422-3 \u0441\u043B\u043E\u0439 -1"
+  - "\u0422-\u041A\u0430\u043A\u0442\u0443\u04412"
+  - "\u0422-3 \u0441\u043B\u043E\u0439 -3"
+  - "\u0422-\u041A\u0430\u043A\u0442\u0443\u04413"
+  - "\u0422-3 \u0441\u043B\u043E\u0439 -2"
+  - "\u0422-\u041A\u0430\u043A\u0442\u0443\u04411"
+  - "3 \u0441\u043B\u043E\u0439 -2"
+  - "\u041A\u0430\u043A\u0442\u0443\u04411"
+  - "\u041A\u0430\u043A\u0442\u0443\u04412"
+  - "3 \u0441\u043B\u043E\u0439 -3"
+  - "\u0422-\u041A\u0430\u043A\u0442\u0443\u04414"
+  - "3 \u0441\u043B\u043E\u0439 -1"
+  - "\u0422-3 \u0441\u043B\u043E\u0439 -4"
+  - "\u041A\u0430\u043A\u0442\u0443\u04413"
+  - "3 \u0441\u043B\u043E\u0439 -4"
+  m_Tag: Cactus
+  m_IsVariant: 0

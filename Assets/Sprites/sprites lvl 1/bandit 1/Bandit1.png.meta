@@ -1,0 +1,1292 @@
+fileFormatVersion: 2
+guid: 04aa28292db96c7409bc9c4c502b78dd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6161420962260219314
+    second: bandit 1_00001
+  - first:
+      213: 1689474192966481290
+    second: bandit 1_00002
+  - first:
+      213: -7240998120158131687
+    second: bandit 1_00003
+  - first:
+      213: -543632503872274494
+    second: bandit 1_00004
+  - first:
+      213: 7424550164333220793
+    second: bandit 1_00005
+  - first:
+      213: 6531619501506204842
+    second: bandit 1_00006
+  - first:
+      213: 220224906439630833
+    second: bandit 1_00007
+  - first:
+      213: -9205082510635764144
+    second: bandit 1_00008
+  - first:
+      213: -1216730736127667080
+    second: bandit 1_00009
+  - first:
+      213: -8252963350189787064
+    second: bandit 1_00010
+  - first:
+      213: -1762323323155012101
+    second: bandit 1_00011
+  - first:
+      213: -4447782265607981892
+    second: bandit 1_00012
+  - first:
+      213: -4248061367819884468
+    second: bandit 1_00013
+  - first:
+      213: -4311819675989527297
+    second: bandit 1_00014
+  - first:
+      213: -3610246255502366086
+    second: bandit 1_00015
+  - first:
+      213: 1467737159427214794
+    second: bandit 1_00016
+  - first:
+      213: -7553503660977991189
+    second: bandit 1_00017
+  - first:
+      213: 5347961832469161986
+    second: bandit 1_00018
+  - first:
+      213: 2428809932386952170
+    second: bandit 1_00019
+  - first:
+      213: -1917575696803937253
+    second: bandit 1_00020
+  - first:
+      213: 470019506600342454
+    second: bandit 1_00021
+  - first:
+      213: -5651177059354890130
+    second: bandit 1_00022
+  - first:
+      213: 2472937643005764312
+    second: bandit 1_00023
+  - first:
+      213: -5758369720890757297
+    second: bandit 1_00024
+  - first:
+      213: -4236823363385909504
+    second: bandit 1_00025
+  - first:
+      213: 5740173911012637773
+    second: bandit 1_00026
+  - first:
+      213: -529107956168686312
+    second: bandit 1_00027
+  - first:
+      213: 7658092560779916391
+    second: bandit 1_00028
+  - first:
+      213: -6876020591371756214
+    second: bandit 1_00029
+  - first:
+      213: 3670616622624838084
+    second: bandit 1_00030
+  - first:
+      213: -1064738211053500337
+    second: bandit 1_00031
+  - first:
+      213: 1794334244585032848
+    second: bandit 1_00032
+  - first:
+      213: -5575296070446873490
+    second: bandit 1_00033
+  - first:
+      213: -3735655820032978800
+    second: bandit 1_00034
+  - first:
+      213: 4237485633570929248
+    second: bandit 1_00035
+  - first:
+      213: 8479571100886932240
+    second: bandit 1_00036
+  - first:
+      213: -1159982456928975724
+    second: bandit 1_00037
+  - first:
+      213: -3476624064022890087
+    second: bandit 1_00038
+  - first:
+      213: 6554853418880008712
+    second: bandit 1_00039
+  - first:
+      213: -3051578000262889498
+    second: bandit 1_00040
+  - first:
+      213: -2517069140618296646
+    second: bandit 1_00041
+  - first:
+      213: 3776351011906545950
+    second: bandit 1_00042
+  - first:
+      213: -1526161292743726977
+    second: bandit 1_00043
+  - first:
+      213: -8813346802355977981
+    second: bandit 1_00044
+  - first:
+      213: -625026661253906629
+    second: bandit 1_00045
+  - first:
+      213: -2420344311809183193
+    second: bandit 1_00046
+  - first:
+      213: -1298556400471064229
+    second: bandit 1_00047
+  - first:
+      213: 5842718336622023067
+    second: bandit 1_00048
+  - first:
+      213: -7601931360126079094
+    second: bandit 1_00049
+  - first:
+      213: 1329824186356421261
+    second: bandit 1_00000
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 4
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bandit 1_00001
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b57a2778b3c18550800000000000000
+      internalID: 6161420962260219314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00002
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a85f4f8c3d7327710800000000000000
+      internalID: 1689474192966481290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00003
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 650
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a04bcf29ec28b90800000000000000
+      internalID: -7240998120158131687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00004
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 975
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf36563e11a478f0800000000000000
+      internalID: -543632503872274494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00005
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1300
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3562a990d490760800000000000000
+      internalID: 7424550164333220793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00006
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1625
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa49a43a459f4aa50800000000000000
+      internalID: 6531619501506204842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00007
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff1707b2656e0300800000000000000
+      internalID: 220224906439630833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00008
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056f4692a3af04080800000000000000
+      internalID: -9205082510635764144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00009
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 650
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8749fcd87dd4d1fe0800000000000000
+      internalID: -1216730736127667080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00010
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 975
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 848be9f1f85977d80800000000000000
+      internalID: -8252963350189787064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00011
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1300
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5a5f75648fa87e0800000000000000
+      internalID: -1762323323155012101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00012
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1625
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb47724489d4642c0800000000000000
+      internalID: -4447782265607981892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00013
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48290371badb05c0800000000000000
+      internalID: -4248061367819884468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00014
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff4ba1589d65924c0800000000000000
+      internalID: -4311819675989527297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00015
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ae8159824d5edc0800000000000000
+      internalID: -3610246255502366086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00016
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acdcc4b8b237e5410800000000000000
+      internalID: 1467737159427214794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00017
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be15bc5c0709c2790800000000000000
+      internalID: -7553503660977991189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00018
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208eba0b3f6c73a40800000000000000
+      internalID: 5347961832469161986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00019
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae36dded3cdd4b120800000000000000
+      internalID: 2428809932386952170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00020
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14441240176365e0800000000000000
+      internalID: -1917575696803937253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00021
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3fa604048d58600800000000000000
+      internalID: 470019506600342454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00022
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60b05ed76cf291b0800000000000000
+      internalID: -5651177059354890130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00023
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d2ec032fa3a15220800000000000000
+      internalID: 2472937643005764312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00024
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 650
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4fe0fc7f392610b0800000000000000
+      internalID: -5758369720890757297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00025
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 975
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00f9e414997c335c0800000000000000
+      internalID: -4236823363385909504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00026
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1300
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c7fd262c139af40800000000000000
+      internalID: 5740173911012637773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00027
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1625
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8158bb00e1b38a8f0800000000000000
+      internalID: -529107956168686312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00028
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76439561c92074a60800000000000000
+      internalID: 7658092560779916391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00029
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 650
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4dd30fe3b77390a0800000000000000
+      internalID: -6876020591371756214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00030
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 975
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c1923ade56a0f230800000000000000
+      internalID: 3670616622624838084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00031
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1300
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f480f5ffc3a4931f0800000000000000
+      internalID: -1064738211053500337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00032
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1625
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c4fc81d71c6e810800000000000000
+      internalID: 1794334244585032848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00033
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64026b53c190a2b0800000000000000
+      internalID: -5575296070446873490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00034
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09050d3f2d8482cc0800000000000000
+      internalID: -3735655820032978800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00035
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06af0d98bb29eca30800000000000000
+      internalID: 4237485633570929248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00036
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b98045dfc7da570800000000000000
+      internalID: 8479571100886932240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00037
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494401de91ae6efe0800000000000000
+      internalID: -1159982456928975724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00038
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 999375e65dc80cfc0800000000000000
+      internalID: -3476624064022890087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00039
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8020913947487fa50800000000000000
+      internalID: 6554853418880008712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00040
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6effee90afd96a5d0800000000000000
+      internalID: -3051578000262889498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00041
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 650
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab2495ed3f2911dd0800000000000000
+      internalID: -2517069140618296646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00042
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 975
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1960e3cc3b486430800000000000000
+      internalID: 3776351011906545950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00043
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1300
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f782f04e36cf1dae0800000000000000
+      internalID: -1526161292743726977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00044
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1625
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3014f3347c3b0b580800000000000000
+      internalID: -8813346802355977981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00045
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 650
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3fffc820957357f0800000000000000
+      internalID: -625026661253906629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00046
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 975
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722f9740ca5396ed0800000000000000
+      internalID: -2420344311809183193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00047
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1300
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51cc1575d99afde0800000000000000
+      internalID: -1298556400471064229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00048
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1625
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9154010f51851150800000000000000
+      internalID: 5842718336622023067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00049
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 650
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f68c864b3808690800000000000000
+      internalID: -7601931360126079094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bandit 1_00000
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 650
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d825f714d0c747210800000000000000
+      internalID: 1329824186356421261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

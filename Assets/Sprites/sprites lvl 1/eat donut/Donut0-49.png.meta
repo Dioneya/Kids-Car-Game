@@ -1,0 +1,1292 @@
+fileFormatVersion: 2
+guid: 7e4ba067181e11b4f8aa17ae07a20cc5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3269556055192679962
+    second: ponchik_00000
+  - first:
+      213: -4149798310899688344
+    second: ponchik_00001
+  - first:
+      213: -1009388827933073580
+    second: ponchik_00002
+  - first:
+      213: -3589869157241567620
+    second: ponchik_00003
+  - first:
+      213: 952498797131443098
+    second: ponchik_00004
+  - first:
+      213: -2014851957247120732
+    second: ponchik_00005
+  - first:
+      213: -2079337916150140769
+    second: ponchik_00006
+  - first:
+      213: -2691422846394873367
+    second: ponchik_00007
+  - first:
+      213: 4797453376100998660
+    second: ponchik_00008
+  - first:
+      213: -3790327330692154571
+    second: ponchik_00009
+  - first:
+      213: 6019370031494649822
+    second: ponchik_00010
+  - first:
+      213: -4438141804584594943
+    second: ponchik_00011
+  - first:
+      213: -1963166170247182809
+    second: ponchik_00012
+  - first:
+      213: -500468583096951680
+    second: ponchik_00013
+  - first:
+      213: 5739620344165916543
+    second: ponchik_00014
+  - first:
+      213: -4050955568313333972
+    second: ponchik_00015
+  - first:
+      213: -2609774608878962391
+    second: ponchik_00016
+  - first:
+      213: -2707146906109197460
+    second: ponchik_00017
+  - first:
+      213: -8444068748997315710
+    second: ponchik_00018
+  - first:
+      213: -7771675672471495034
+    second: ponchik_00019
+  - first:
+      213: -2555593754942404932
+    second: ponchik_00020
+  - first:
+      213: -445203862201815250
+    second: ponchik_00021
+  - first:
+      213: -2030943830627573372
+    second: ponchik_00022
+  - first:
+      213: 5032740717199389836
+    second: ponchik_00023
+  - first:
+      213: -3083200411270820192
+    second: ponchik_00024
+  - first:
+      213: 5281563268133574724
+    second: ponchik_00025
+  - first:
+      213: -6117619424979287843
+    second: ponchik_00026
+  - first:
+      213: 6933047739685258823
+    second: ponchik_00027
+  - first:
+      213: 8359477641472438663
+    second: ponchik_00028
+  - first:
+      213: 6103330270469485557
+    second: ponchik_00029
+  - first:
+      213: -6140023613130660483
+    second: ponchik_00030
+  - first:
+      213: -2139558485938586210
+    second: ponchik_00031
+  - first:
+      213: -162325687267070935
+    second: ponchik_00032
+  - first:
+      213: -6234211218989657509
+    second: ponchik_00033
+  - first:
+      213: 923850540085968130
+    second: ponchik_00034
+  - first:
+      213: -7030584456942371015
+    second: ponchik_00035
+  - first:
+      213: 389202238621570320
+    second: ponchik_00036
+  - first:
+      213: 8103474394311257407
+    second: ponchik_00037
+  - first:
+      213: 6331901719129230200
+    second: ponchik_00038
+  - first:
+      213: 7443847526125292443
+    second: ponchik_00039
+  - first:
+      213: 8961437799478540129
+    second: ponchik_00040
+  - first:
+      213: -7172242577028680861
+    second: ponchik_00041
+  - first:
+      213: -865458235139700248
+    second: ponchik_00042
+  - first:
+      213: -2949579199766794591
+    second: ponchik_00043
+  - first:
+      213: -7488889935769580850
+    second: ponchik_00044
+  - first:
+      213: -8830065703186110881
+    second: ponchik_00045
+  - first:
+      213: 4061776515747252453
+    second: ponchik_00046
+  - first:
+      213: 5787511566086917717
+    second: ponchik_00047
+  - first:
+      213: 6565160384943003595
+    second: ponchik_00048
+  - first:
+      213: 5897116804983366944
+    second: ponchik_00049
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 4
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ponchik_00000
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a16bcfac8ebcf5d20800000000000000
+      internalID: 3269556055192679962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00001
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86cde4d3c64f866c0800000000000000
+      internalID: -4149798310899688344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00002
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 650
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45f1dce753eedf1f0800000000000000
+      internalID: -1009388827933073580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00003
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 975
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c764c7c75093e2ec0800000000000000
+      internalID: -3589869157241567620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00004
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1300
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9ba1040c94f73d00800000000000000
+      internalID: 952498797131443098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00005
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1625
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aae84de1dec904e0800000000000000
+      internalID: -2014851957247120732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00006
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f90bedb9e25b423e0800000000000000
+      internalID: -2079337916150140769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00007
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e943445e2526aad0800000000000000
+      internalID: -2691422846394873367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00008
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 650
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e9ff47d6af39240800000000000000
+      internalID: 4797453376100998660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00009
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 975
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53bb3afef5d066bc0800000000000000
+      internalID: -3790327330692154571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00010
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1300
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed7ded2d629198350800000000000000
+      internalID: 6019370031494649822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00011
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1625
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1029ce20b8d8862c0800000000000000
+      internalID: -4438141804584594943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00012
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7264a5bf4ce61c4e0800000000000000
+      internalID: -1963166170247182809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00013
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c534ba97afd09f0800000000000000
+      internalID: -500468583096951680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00014
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f5d9f0b4a37af40800000000000000
+      internalID: 5739620344165916543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00015
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c270bcd9f5d18c7c0800000000000000
+      internalID: -4050955568313333972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00016
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9297fe502d738cbd0800000000000000
+      internalID: -2609774608878962391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00017
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6340926b384e6ad0800000000000000
+      internalID: -2707146906109197460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00018
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283b90d1634a0da80800000000000000
+      internalID: -8444068748997315710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00019
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e9ac8e626752490800000000000000
+      internalID: -7771675672471495034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00020
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb6837e1505b88cd0800000000000000
+      internalID: -2555593754942404932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00021
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 0
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f24d4327152d9f0800000000000000
+      internalID: -445203862201815250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00022
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4812ca0b853a0d3e0800000000000000
+      internalID: -2030943830627573372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00023
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 650
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8470578403e7d540800000000000000
+      internalID: 5032740717199389836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00024
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 975
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae4ddabf854635d0800000000000000
+      internalID: -3083200411270820192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00025
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1300
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4485ad73fc1eb4940800000000000000
+      internalID: 5281563268133574724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00026
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1625
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd08417ab89d91ba0800000000000000
+      internalID: -6117619424979287843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00027
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746c3c6bf22273060800000000000000
+      internalID: 6933047739685258823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00028
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 650
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781f8cfdf94d20470800000000000000
+      internalID: 8359477641472438663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00029
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 975
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f3f83e4b8263b450800000000000000
+      internalID: 6103330270469485557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00030
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1300
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7526da1e014acaa0800000000000000
+      internalID: -6140023613130660483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00031
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 1625
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9d357594e2ce42e0800000000000000
+      internalID: -2139558485938586210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00032
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92c6680c5ad4fbdf0800000000000000
+      internalID: -162325687267070935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00033
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52dd553de1ab79a0800000000000000
+      internalID: -6234211218989657509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00034
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d7063eb2d22dc00800000000000000
+      internalID: 923850540085968130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00035
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93f3190afa85e6e90800000000000000
+      internalID: -7030584456942371015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00036
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01553dabf59b66500800000000000000
+      internalID: 389202238621570320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00037
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3d656f0703557070800000000000000
+      internalID: 8103474394311257407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00038
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87b0261d01f6fd750800000000000000
+      internalID: 6331901719129230200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00039
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 325
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9b4ed4c2ebdd4760800000000000000
+      internalID: 7443847526125292443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00040
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 650
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1673daae23c6d5c70800000000000000
+      internalID: 8961437799478540129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00041
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 975
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 363f5495063177c90800000000000000
+      internalID: -7172242577028680861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00042
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1300
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9cf8e02564df3f0800000000000000
+      internalID: -865458235139700248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00043
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1625
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aee409685df017d0800000000000000
+      internalID: -2949579199766794591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00044
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 650
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecac470084e121890800000000000000
+      internalID: -7488889935769580850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00045
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 975
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f566b32d60e457580800000000000000
+      internalID: -8830065703186110881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00046
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1300
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8832a88345e5830800000000000000
+      internalID: 4061776515747252453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00047
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 1625
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e43161b1f515050800000000000000
+      internalID: 5787511566086917717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00048
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 650
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc79efd16922c1b50800000000000000
+      internalID: 6565160384943003595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ponchik_00049
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 650
+        width: 157
+        height: 324
+      alignment: 9
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02525086d74c6d150800000000000000
+      internalID: 5897116804983366944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

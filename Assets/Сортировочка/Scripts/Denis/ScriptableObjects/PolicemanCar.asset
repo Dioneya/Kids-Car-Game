@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c47854a9f177d0d469ea11a0f1ff7a4a, type: 3}
+  m_Name: PolicemanCar
+  m_EditorClassIdentifier: 
+  _carParts:
+  - {fileID: 2648227242000216391, guid: 756b55baf72bca54286776170c9ac933, type: 3}
+  - {fileID: 8960626665117720885, guid: 6ec635740c19526459f90b14eba74305, type: 3}
+  - {fileID: 4351086511537339408, guid: 11b6da570b375834e81447cf7668b5bd, type: 3}
+  - {fileID: 6795711437791259454, guid: 733c8f1791943474a9edfca8357d23d9, type: 3}
+  - {fileID: 6132903425274733954, guid: 8f1749bdf01d9a348967bc32f83ea475, type: 3}
+  - {fileID: 4330976171390815973, guid: 7cfe58036d6498147850e8debb036e11, type: 3}
+  - {fileID: 1183985369149905939, guid: 7d7d87aea4c474f419db9de8b9879ce8, type: 3}
+  - {fileID: 7278388150879640452, guid: 165e76e9da18e1b488ce12efa60588e2, type: 3}
+  - {fileID: 127225720860561608, guid: 1ab2746589169594ca3b0650322e28f9, type: 3}
+  - {fileID: 518725054769306587, guid: 7b9056330e7d12342be961f0837bd574, type: 3}
+  - {fileID: 5675498012688404968, guid: 120e2be815325e9489f513f02c2d61ee, type: 3}
+  - {fileID: 7444080227411676002, guid: 53bddfeda486f524aab0103abd2c74c8, type: 3}
+  - {fileID: 7273564022114212951, guid: 0128951c7dae06546a14fa4272e44046, type: 3}
