@@ -5,6 +5,14 @@ using System;
 using System.Threading.Tasks;
 public class LvlGenerator : MonoBehaviour
 {
+    public enum Type { BackCity, Clouds, BackBuildings, Buildings, Road, Interactive, AZS };
+
+    [Header("параметры")]
+    public bool isInteractive = false;
+    public bool SpawnInteractiveOnStart = true;
+    private string nameOfInteractive;
+    public Type InteractSpawnCanvas;
+
     private Dictionary<Type, List<GameObject>> GeneratedObjects = new Dictionary<Type, List<GameObject>>();
     [Header("Префабы для генератора")]
     [SerializeField] 
@@ -25,10 +33,7 @@ public class LvlGenerator : MonoBehaviour
     private List<GameObject> CanvasList = new List<GameObject>();
 
     [SerializeField] private int CntOfSpawnableInteractive;
-    [Header("параметры")]
-    public bool isInteractive = false;
-    public bool SpawnInteractiveOnStart = true;
-    private string nameOfInteractive;
+    
 
     [Header("Кастомные координаты для спауна")]
     [SerializeField]
@@ -64,7 +69,7 @@ public class LvlGenerator : MonoBehaviour
 
     private int lastIndxOfInteractive = -1;
     private Vector3 lastPosSpawnInteractive;
-    public enum Type { BackCity, Clouds, BackBuildings, Buildings, Road, Interactive, AZS};
+    
     void Start() 
     {
         for (int i = 0; i < spawnCoords.Keys.Count; i++)
