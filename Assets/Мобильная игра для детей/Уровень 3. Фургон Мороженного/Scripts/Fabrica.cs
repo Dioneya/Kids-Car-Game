@@ -4,16 +4,22 @@ using UnityEngine;
 
 public class Fabrica : MonoBehaviour, IInteractiveBuilding
 {
+    [SerializeField]
+    private GameObject[] IceCreamBoxesPrefabs;
+    [SerializeField]
+    private GameObject[] Markers;
+    [SerializeField]
+    private Animator conveyor;
+    [SerializeField] private GameObject money;
     private LevelManager Level;
     private GameObject tourist;
     private GameObject rider;
     private GameObject car;
     private Animator playerAnim;
-    [SerializeField]
-    private GameObject[] IceCreamBoxesPrefabs;
-    [SerializeField]
-    private GameObject[] Markers;
     private Canvas canvas;
+    
+    
+
     List<GameObject> boxes = new List<GameObject>();
     void Start()
     {
@@ -52,23 +58,57 @@ public class Fabrica : MonoBehaviour, IInteractiveBuilding
     }
     IEnumerator GenerateIceCream() 
     {
+        var generateBox = new List<GameObject>();
+        foreach (GameObject i in IceCreamBoxesPrefabs)
+            generateBox.Add(i);
+
+        conveyor.Play("Work");
         for (int i = 3; i > 0; i-- ) 
         {
-            GameObject obj = Instantiate(IceCreamBoxesPrefabs[0],canvas.transform);
+            int rnd = RandomVar(generateBox.Count);  
+            GameObject obj = Instantiate(generateBox[rnd],canvas.transform);
             obj.transform.position = Markers[0].transform.position;
             obj.GetComponent<IceCreamBox>().MoveTo(Markers[i].transform.position);
             obj.GetComponent <IceCreamBox>().canvas = canvas;
             boxes.Add(obj);
+
+            generateBox.RemoveAt(rnd);
             yield return new WaitForSeconds(2f);
         }
+
+        yield return new WaitForSeconds(1f);
+        conveyor.Play("Default");
         yield return new WaitWhile(()=> IceBar.value!=3);
+        StartCoroutine(MoneyTransform());
         StartCoroutine(EndInteractive());
+    }
+
+    int RandomVar(int lenght) 
+    {
+        return Random.Range(0,lenght);
+    }
+
+    IEnumerator MoneyTransform()
+    {
+        money.SetActive(true);
+        Vector3 currentStart = money.transform.localPosition;
+        Vector3 endPos = currentStart;
+        endPos.y = 2f;
+
+        for (float i = 0; i <= 1f; i += 0.02f)
+        {
+            yield return new WaitForSeconds(0.02f);
+            money.transform.localPosition = Vector3.Lerp(currentStart, endPos, i);
+        }
+
+        money.SetActive(false);
     }
 
     void Unlock()
     {
         ClearBox();
         LevelManager.isMoved = true;
+        car.GetComponent<CarV2>().MoveToPrevPos();
         GameObject obj = Level.GetGameplayBtn();
         obj.SetActive(true);
     }
