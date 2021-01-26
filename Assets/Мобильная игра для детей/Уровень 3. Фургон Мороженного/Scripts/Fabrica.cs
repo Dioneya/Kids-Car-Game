@@ -29,6 +29,11 @@ public class Fabrica : MonoBehaviour, IInteractiveBuilding
         tourist = Level.character.gameObject;
         playerAnim = tourist.GetComponent<Animator>();
         canvas = transform.parent.transform.parent.GetComponent<Canvas>(); // /GeneratedObjects/Canvas
+        IceBar.addValue.AddListener(CheckForEmpty);
+    }
+    void onDestroy() 
+    {
+        IceBar.addValue.RemoveListener(CheckForEmpty);
     }
     void IInteractiveBuilding.Action()
     {
@@ -45,9 +50,12 @@ public class Fabrica : MonoBehaviour, IInteractiveBuilding
         yield return new WaitWhile(() => charact.isMoving);
         playerAnim.Play("Idle");
         StartCoroutine(GenerateIceCream());
+        StartCoroutine(EndInteractive());
     }
     IEnumerator EndInteractive()
     {
+        yield return new WaitWhile(() => IceBar.value != 3);
+        StartCoroutine(MoneyTransform());
         playerAnim.Play("Walk");
         tourist.GetComponent<Character>().GoTo(car.transform.position);
         yield return new WaitWhile(() => tourist.GetComponent<Character>().isMoving);
@@ -55,6 +63,20 @@ public class Fabrica : MonoBehaviour, IInteractiveBuilding
         rider.SetActive(true);
         LevelManager.isMoved = true;
         Unlock();
+    }
+
+    void CheckForEmpty() 
+    {
+        int cnt = 0;
+        foreach (GameObject i in boxes)
+            if (!i.activeSelf)
+                cnt++;
+        if (cnt >= 2) 
+        {
+            ClearBox();
+            StartCoroutine(GenerateIceCream());
+        }
+            
     }
     IEnumerator GenerateIceCream() 
     {
@@ -78,16 +100,12 @@ public class Fabrica : MonoBehaviour, IInteractiveBuilding
 
         yield return new WaitForSeconds(1f);
         conveyor.Play("Default");
-        yield return new WaitWhile(()=> IceBar.value!=3);
-        StartCoroutine(MoneyTransform());
-        StartCoroutine(EndInteractive());
     }
 
     int RandomVar(int lenght) 
     {
         return Random.Range(0,lenght);
     }
-
     IEnumerator MoneyTransform()
     {
         money.SetActive(true);

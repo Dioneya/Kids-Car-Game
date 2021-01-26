@@ -11,33 +11,43 @@ public class IceBar : MonoBehaviour
     Sprite[] sprites;
     Image image;
     public static int value = 0;
-    
-    void Awake() 
+    private int tempValue = 0;
+    void Awake()
     {
         image = GetComponent<Image>();
     }
 
-    void Start() 
+    void Start()
     {
         if (addValue == null)
             addValue = new UnityEvent();
-        value = 2;
+        value = 0;
         ChangeSprite();
         addValue.AddListener(AddValue);
 
     }
-    void OnDestroy() 
+    void OnDestroy()
     {
         addValue.RemoveAllListeners();
     }
 
-    public void AddValue() 
+    public void AddValue()
     {
-        value++;
+        tempValue++;
+        bool easyMode = tempValue == 1 && Settings.difficult == Settings.Difficult.Easy;
+        bool normalMode = tempValue == 2 && Settings.difficult == Settings.Difficult.Medium;
+        bool hardMode = tempValue == 3 && Settings.difficult == Settings.Difficult.Hard;
+
+        if (easyMode || normalMode || hardMode)
+        {
+            value++;
+            tempValue = 0;
+        }
+
         ChangeSprite();
     }
 
-    void ChangeSprite() 
+    void ChangeSprite()
     {
         image.sprite = sprites[value];
     }
