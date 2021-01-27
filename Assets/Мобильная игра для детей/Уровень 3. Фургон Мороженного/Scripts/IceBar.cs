@@ -23,14 +23,21 @@ public class IceBar : MonoBehaviour
             addValue = new UnityEvent();
         value = 0;
         ChangeSprite();
+        image.enabled = false;
         addValue.AddListener(AddValue);
+        StartCoroutine(WaiterForUnlock());
 
     }
     void OnDestroy()
     {
         addValue.RemoveAllListeners();
     }
-
+    
+    IEnumerator WaiterForUnlock() 
+    {
+        yield return new WaitWhile(()=>!LevelManager.isMoved);
+        image.enabled = true;
+    }
     public void AddValue()
     {
         tempValue++;
