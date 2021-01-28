@@ -58,6 +58,7 @@ public class FeedKids : MonoBehaviour, IInteractiveBuilding
             generateKids.RemoveAt(rnd);
             yield return new WaitForSeconds(2f);
         }
+        IceCar.feedChild.Invoke();
     }
 
     int RandomVar(int lenght)
