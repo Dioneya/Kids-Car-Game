@@ -140,6 +140,7 @@ public class CarV2 : MonoBehaviour, IDropHandler
     public IEnumerator MoveBack()
     {
         SpeedDown = true;
+        ToCenter = false;
         yield return new WaitForSeconds(.5f);
         SpeedDown = false;
     }
@@ -148,6 +149,7 @@ public class CarV2 : MonoBehaviour, IDropHandler
     {
         SpeedUp = true;
         ToCenter = true;
+        SpeedDown = false;
         previousPosition = carObj.transform.position;
     }
     public void MoveToPrevPos() 

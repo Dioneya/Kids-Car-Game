@@ -76,7 +76,6 @@ public class Fabrica : MonoBehaviour, IInteractiveBuilding
             ClearBox();
             StartCoroutine(GenerateIceCream());
         }
-            
     }
     IEnumerator GenerateIceCream() 
     {

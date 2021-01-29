@@ -13,6 +13,18 @@ public class FeedKids : MonoBehaviour, IInteractiveBuilding
     private GameObject rider;
     private GameObject car;
     private Animator playerAnim;
+    private MissionProgress mission;
+
+    private int cntHungryKids = 3;
+    private int mustFeedKids = 3;
+    private int cntFeededKids = 0;
+
+    Dictionary<Settings.Difficult, int> param = new Dictionary<Settings.Difficult, int>()
+    {
+        { Settings.Difficult.Easy , 3 },
+        { Settings.Difficult.Medium, 6},
+        { Settings.Difficult.Hard, 9}
+    };
 
     List<GameObject> boxes = new List<GameObject>();
     void Start()
@@ -22,6 +34,8 @@ public class FeedKids : MonoBehaviour, IInteractiveBuilding
         car = Level.car;
         tourist = Level.character.gameObject;
         playerAnim = tourist.GetComponent<Animator>();
+        mustFeedKids = param[Settings.difficult];
+        mission = Level.gameObject.GetComponent<MissionProgress>();
     }
 
     void IInteractiveBuilding.Action()
@@ -59,8 +73,48 @@ public class FeedKids : MonoBehaviour, IInteractiveBuilding
             yield return new WaitForSeconds(2f);
         }
         IceCar.feedChild.Invoke();
+        StartCoroutine(WaitForEndFeed());
+    }
+    public void KidFeeded() 
+    {
+        cntFeededKids++;
+        cntHungryKids--;
+    }
+    IEnumerator WaitForEndFeed() 
+    {
+        yield return new WaitWhile(()=>cntHungryKids!=0);
+        if (cntFeededKids != mustFeedKids)
+        {
+            cntHungryKids = 3;
+            StartCoroutine(GenerateKids());
+        }
+        else 
+        {
+            StartCoroutine(EndInteractive());
+        }    
     }
 
+    IEnumerator EndInteractive()
+    {
+        IceCar.endFeed.Invoke();
+        IceBar.removeValue.Invoke();
+        playerAnim.Play("Walk");
+        tourist.GetComponent<Character>().GoTo(car.transform.position);
+        yield return new WaitWhile(() => tourist.GetComponent<Character>().isMoving);
+        tourist.SetActive(false);
+        rider.SetActive(true);
+        LevelManager.isMoved = true;
+        Unlock();
+    }
+
+    void Unlock()
+    {
+        car.GetComponent<CarV2>().MoveToPrevPos();
+        GameObject obj = Level.GetGameplayBtn();
+        obj.SetActive(true);
+
+        mission.TaskComplete(param[Settings.difficult]/3);
+    }
     int RandomVar(int lenght)
     {
         return Random.Range(0, lenght);

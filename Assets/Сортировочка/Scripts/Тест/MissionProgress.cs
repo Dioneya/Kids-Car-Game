@@ -55,9 +55,9 @@ public class MissionProgress : MonoBehaviour
 
     }
 
-    public void TaskComplete() 
+    public void TaskComplete(float addProg = 1.0f) 
     {
-        targetProgress = targetProgress+1.0f;
+        targetProgress = targetProgress+addProg;
         startFill = true;
         if (Settings.isVibrate) Vibration.Vibrate(200);
         audioSource.Play();
@@ -66,8 +66,8 @@ public class MissionProgress : MonoBehaviour
             LevelManager.isMoved = false;
             Victory();
         }
-        
     }
+
     public void Reset() 
     {
         targetProgress = 0.0f;

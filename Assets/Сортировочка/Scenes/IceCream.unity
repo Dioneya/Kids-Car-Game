@@ -4831,7 +4831,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.09448242, y: 0.14428711}
+  m_AnchoredPosition: {x: 0.09472656, y: 0.14453125}
   m_SizeDelta: {x: -0.1887207, y: -0.28833008}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &855574886
@@ -6571,7 +6571,7 @@ GameObject:
   - component: {fileID: 1215139041}
   - component: {fileID: 1215139045}
   - component: {fileID: 1215139044}
-  - component: {fileID: 1215139043}
+  - component: {fileID: 1215139046}
   - component: {fileID: 1215139042}
   m_Layer: 5
   m_Name: FabricaBtn
@@ -6642,22 +6642,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1215139043
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1215139040}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95f1e5eea602f584daf745862d553baa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  generator: {fileID: 1787017834}
-  gameplayBtn: {fileID: 1297940646}
-  nameOfAttract: Fabric
-  isMoveToCenter: 1
 --- !u!114 &1215139044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6697,6 +6681,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1215139040}
   m_CullTransparentMesh: 0
+--- !u!114 &1215139046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215139040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5128c0aab1db9b344bcd6578b97ce5e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: -4818507087514351440, guid: 94e57575147b18f4fb3d7af14d5dbf55, type: 3}
+  - {fileID: -638030005790584045, guid: 94e57575147b18f4fb3d7af14d5dbf55, type: 3}
+  generator: {fileID: 1787017834}
+  gameplayBtn: {fileID: 1297940646}
+  nameOfAttract: Fabric
+  isMoveToCenter: 1
+  value: 3
 --- !u!1 &1228090485
 GameObject:
   m_ObjectHideFlags: 0
@@ -7404,10 +7408,10 @@ GameObject:
   - component: {fileID: 1308630459}
   - component: {fileID: 1308630463}
   - component: {fileID: 1308630462}
-  - component: {fileID: 1308630461}
+  - component: {fileID: 1308630464}
   - component: {fileID: 1308630460}
   m_Layer: 5
-  m_Name: Western
+  m_Name: Feed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7475,22 +7479,6 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1308630461
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1308630458}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95f1e5eea602f584daf745862d553baa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  generator: {fileID: 1787017834}
-  gameplayBtn: {fileID: 1297940646}
-  nameOfAttract: Parc
-  isMoveToCenter: 1
 --- !u!114 &1308630462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7530,6 +7518,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1308630458}
   m_CullTransparentMesh: 0
+--- !u!114 &1308630464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308630458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5128c0aab1db9b344bcd6578b97ce5e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 1145051214246244315, guid: 94e57575147b18f4fb3d7af14d5dbf55, type: 3}
+  - {fileID: -1322144090092797113, guid: 94e57575147b18f4fb3d7af14d5dbf55, type: 3}
+  generator: {fileID: 1787017834}
+  gameplayBtn: {fileID: 1297940646}
+  nameOfAttract: Parc
+  isMoveToCenter: 1
+  value: 0
 --- !u!1 &1332628888
 GameObject:
   m_ObjectHideFlags: 0
@@ -10985,12 +10993,12 @@ PrefabInstance:
     - target: {fileID: 4882394303458950279, guid: d0c04808518410245949649ddc8e793b,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 123.04999
+      value: 123.049805
       objectReference: {fileID: 0}
     - target: {fileID: 4882394303458950279, guid: d0c04808518410245949649ddc8e793b,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -221.71002
+      value: -221.70996
       objectReference: {fileID: 0}
     - target: {fileID: 4882394303458950279, guid: d0c04808518410245949649ddc8e793b,
         type: 3}

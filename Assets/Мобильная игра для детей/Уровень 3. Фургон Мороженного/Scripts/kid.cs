@@ -6,18 +6,35 @@ using UnityEngine.UI;
 
 public class kid : MonoBehaviour, IDropHandler
 {
-    private bool isMove = false;
-    private bool isInteractive = false;
-    private Vector3 coordToMove = new Vector3();
+    #region Переменные
+    private bool isMove = false, 
+                 isMoveBack = false, 
+                 isInteractive = false;
+
+    private Vector3 coordToMove = new Vector3(), 
+                    spawnCoord = new Vector3();
     private Animator animator;
-    [SerializeField] GameObject cloud;
-    [SerializeField] GameObject iceCream;
+    [SerializeField] GameObject cloud, 
+                                iceCream;
+
     [SerializeField] Sprite[] iceCreams;
     private string[] names = new string[4] {"Twisted", "Chocolate", "Horn", "Ball" };
     private string cloudIceCreamName = "";
+    AudioSource source;
+
+    [SerializeField]
+    private AudioClip cry, 
+                      happy;
+    #endregion
     void Awake() 
     {
         animator = GetComponent<Animator>();
+        source = GetComponent<AudioSource>();
+    }
+
+    void Start() 
+    {
+        spawnCoord = transform.position;
     }
     public void OnDrop(PointerEventData eventData)
     {
@@ -29,7 +46,33 @@ public class kid : MonoBehaviour, IDropHandler
             Color color = Color.white;
             color.a = 0;
             eventData.pointerDrag.gameObject.GetComponent<Image>().color = color;
+            StartCoroutine(CorrectPick());
         }
+        else 
+        {
+            animator.Play("cry");
+            PlayCrySound();
+        }
+    }
+    IEnumerator CorrectPick() 
+    {
+        GetComponent<Animator>().Play("happy");
+        PlayHappySound();
+        yield return new WaitForSeconds(0.55f);
+        GetComponent<SpriteRenderer>().flipX = true;
+        MoveToBack();
+        transform.parent.GetComponent<FeedKids>().KidFeeded();
+    }
+
+    void PlayHappySound() 
+    {
+        source.clip = happy;
+        source.Play();
+    }
+    void PlayCrySound() 
+    {
+        source.clip = cry;
+        source.Play();
     }
 
     public void MoveTo(Vector3 toMove)
@@ -37,6 +80,11 @@ public class kid : MonoBehaviour, IDropHandler
         isMove = true;
         animator.Play("Run");
         coordToMove = toMove;
+    }
+    public void MoveToBack()
+    {
+        isMoveBack = true;
+        animator.Play("Run");
     }
     void Update()
     {
@@ -47,6 +95,15 @@ public class kid : MonoBehaviour, IDropHandler
             isMove = false;
             animator.Play("Idle");
             GenerateCloud();
+        }
+        
+        if(isMoveBack)
+            transform.position += Vector3.left * 3f * Time.deltaTime;
+        if (isMoveBack && transform.position.x <= spawnCoord.x)
+        {
+            isMoveBack = false;
+            animator.Play("Idle");
+            Destroy(this.gameObject);
         }
     }
 

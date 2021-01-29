@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class IceBar : MonoBehaviour
 {
     public static UnityEvent addValue;
-
+    public static UnityEvent removeValue;
     [SerializeField]
     Sprite[] sprites;
     Image image;
@@ -21,16 +21,19 @@ public class IceBar : MonoBehaviour
     {
         if (addValue == null)
             addValue = new UnityEvent();
-        value = 0;
+        if (removeValue == null)
+            removeValue = new UnityEvent();
+        value = 2;
         ChangeSprite();
         image.enabled = false;
         addValue.AddListener(AddValue);
+        removeValue.AddListener(RemoveValue);
         StartCoroutine(WaiterForUnlock());
-
     }
     void OnDestroy()
     {
         addValue.RemoveAllListeners();
+        removeValue.RemoveAllListeners();
     }
     
     IEnumerator WaiterForUnlock() 
@@ -54,6 +57,11 @@ public class IceBar : MonoBehaviour
         ChangeSprite();
     }
 
+    public void RemoveValue() 
+    {
+        value--;
+        ChangeSprite();
+    }
     void ChangeSprite()
     {
         image.sprite = sprites[value];
