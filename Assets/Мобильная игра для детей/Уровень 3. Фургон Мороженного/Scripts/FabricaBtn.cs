@@ -13,6 +13,11 @@ public class FabricaBtn : MonoBehaviour
     bool isAcitve = true;
     [SerializeField] private int value;
     private Button btn;
+    public bool isFeedKids = false;
+
+    private string[] text = new string[] { 
+                                            "Parc", "Swing", "Lake" 
+                                         }; 
     void Awake()
     {
         btn = GetComponent<Button>();
@@ -27,7 +32,10 @@ public class FabricaBtn : MonoBehaviour
     {
         if (!isAcitve)
             return;
-        generator.AddInteractiveToQueue(nameOfAttract);
+        if (isFeedKids)
+            generator.AddInteractiveToQueue(text[Random.Range(0,text.Length)]);
+        else 
+            generator.AddInteractiveToQueue(nameOfAttract);
         gameplayBtn.SetActive(false);
         if (isMoveToCenter)
             LevelManager.GetLevelManager().car.GetComponent<CarV2>().MoveToCenter();

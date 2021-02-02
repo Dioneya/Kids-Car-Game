@@ -74,7 +74,7 @@ public class Fabrica : MonoBehaviour, IInteractiveBuilding
         if (cnt >= 2) 
         {
             ClearBox();
-            StartCoroutine(GenerateIceCream());
+            if(IceBar.value!=3) StartCoroutine(GenerateIceCream());
         }
     }
     IEnumerator GenerateIceCream() 
