@@ -9,7 +9,7 @@ public class FeedKids : MonoBehaviour, IInteractiveBuilding
     [SerializeField]
     private GameObject[] Markers;
     private LevelManager Level;
-    private GameObject tourist;
+    private GameObject iceCreamSaler;
     private GameObject rider;
     private GameObject car;
     private Animator playerAnim;
@@ -32,19 +32,19 @@ public class FeedKids : MonoBehaviour, IInteractiveBuilding
         Level = LevelManager.GetLevelManager();
         rider = Level.GetRider();
         car = Level.car;
-        tourist = Level.character.gameObject;
-        playerAnim = tourist.GetComponent<Animator>();
+        iceCreamSaler = Level.character.gameObject;
+        playerAnim = iceCreamSaler.GetComponent<Animator>();
         mustFeedKids = param[Settings.difficult];
         mission = Level.gameObject.GetComponent<MissionProgress>();
     }
 
     void IInteractiveBuilding.Action()
     {
-        Vector3 newPos = new Vector3(car.transform.position.x, tourist.transform.position.y, tourist.transform.position.z);
-        tourist.transform.position = newPos;
-        tourist.SetActive(true);
+        Vector3 newPos = new Vector3(car.transform.position.x, iceCreamSaler.transform.position.y, iceCreamSaler.transform.position.z);
+        iceCreamSaler.transform.position = newPos;
+        iceCreamSaler.SetActive(true);
         rider.SetActive(false);
-        StartCoroutine(WaitForCharStop(tourist.GetComponent<Character>()));
+        StartCoroutine(WaitForCharStop(iceCreamSaler.GetComponent<Character>()));
     }
 
     IEnumerator WaitForCharStop(Character charact)
@@ -58,6 +58,8 @@ public class FeedKids : MonoBehaviour, IInteractiveBuilding
 
     IEnumerator GenerateKids()
     {
+        iceCreamSaler.GetComponent<AudioSource>().Play();
+        yield return new WaitForSeconds(1f);
         var generateKids = new List<GameObject>();
         foreach (GameObject i in kids)
             generateKids.Add(i);
@@ -99,9 +101,9 @@ public class FeedKids : MonoBehaviour, IInteractiveBuilding
         IceCar.endFeed.Invoke();
         IceBar.removeValue.Invoke();
         playerAnim.Play("Walk");
-        tourist.GetComponent<Character>().GoTo(car.transform.position);
-        yield return new WaitWhile(() => tourist.GetComponent<Character>().isMoving);
-        tourist.SetActive(false);
+        iceCreamSaler.GetComponent<Character>().GoTo(car.transform.position);
+        yield return new WaitWhile(() => iceCreamSaler.GetComponent<Character>().isMoving);
+        iceCreamSaler.SetActive(false);
         rider.SetActive(true);
         LevelManager.isMoved = true;
         Unlock();
